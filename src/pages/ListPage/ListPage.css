@@ -1,0 +1,80 @@
+.list-page {
+  padding: 0px ;
+}
+
+.list-page__title {
+  font-size: 50px;
+  margin: 50px 10px;
+  text-align: center;
+
+}
+
+.list-page ul li {
+  padding: 50px;
+  background-color: #acaba8;
+  
+  display: flex;
+}
+.list-page__single-movie {
+  font-size: 25px;
+  margin-bottom: 50px;
+  display: flex;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.single-movie__poster {
+  height: 250px;
+  margin-left:350px;
+  margin-right: 50px;
+}
+
+.list-page__link-imdb {
+  padding:15px;
+  text-decoration: none;
+  color: white;
+}
+
+.link-imdb {
+  margin: 5px 0;
+  display: block;
+  border-radius: 5px;
+}
+
+.list-page__details {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgray;
+}
+.list-page__details-title {
+  width: 160px;
+  font-size: 15px;
+}
+
+.movie-item__about {
+  padding: 10px 0;
+}
+
+.list-page__details-value {
+  font-size: 13px;
+  width: 100%;
+}
+
+.link-to__list {
+  text-decoration: none;
+  color: white;
+}
+.movie-item__info-list {
+  display: flex;
+  list-style-type: none;
+  padding: 20px 0 0 0;
+}
+
+#movie-item__info-item {
+  padding: 0;
+}
+
+.info {
+  width:50%;
+}
+
+
